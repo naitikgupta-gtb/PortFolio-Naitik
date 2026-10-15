@@ -1,0 +1,85 @@
+{
+  "name": "Naitik Kumar Gupta",
+  "role": "Full-Stack Developer · Android · DevOps",
+  "tagline": "Building modern web, mobile, and DevOps experiences.",
+  "about": "I am a developer who builds across the stack — from React frontends to Node.js backends, Android apps in Kotlin, and full deployment platforms. Recent work includes DEPLOX (a self-hosted Vercel-like deploy platform), a college attendance system with face recognition and geo-fencing, a WebAR restaurant menu, and an offline Android file viewer.",
+  "goals": "I want to keep building products that solve real problems and ship them on my own infrastructure. Currently exploring opportunities in full-stack and mobile engineering.",
+  "interests": ["Full-Stack Web", "Android (Kotlin)", "DevOps", "Open Source", "AI / ML", "WebXR / AR"],
+  "profileImage": "MyImage.jpeg",
+  "email": "naitik.ng690@gmail.com",
+  "socials": {
+    "github": "https://github.com/naitikgupta-gtb",
+    "linkedin": "https://www.linkedin.com/in/naitik-kumar-gupta-759435381/"
+  },
+  "skills": [
+    { "category": "Frontend", "items": ["React", "JavaScript", "TypeScript", "HTML", "CSS", "Vite"] },
+    { "category": "Backend", "items": ["Node.js", "Express.js", "REST APIs"] },
+    { "category": "Mobile", "items": ["Kotlin", "Jetpack Compose", "Android SDK", "MediaProjection API"] },
+    { "category": "Database", "items": ["PostgreSQL", "MongoDB", "SQLite"] },
+    { "category": "DevOps & Tools", "items": ["Git", "GitHub", "Docker", "Caddy", "Cloudflare"] }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "DEPLOX",
+      "description": "Self-hosted deploy platform — push a GitHub repo and get a live URL. Detects the framework, builds it in an isolated container, and serves it on a per-deployment URL with auto-TLS.",
+      "technologies": ["TypeScript", "Fastify", "React", "Docker", "Caddy"],
+      "github": "https://github.com/naitikgupta-gtb/Deplox",
+      "demo": "https://deplox.site",
+      "image": "Deplox.png"
+    },
+    {
+      "id": 2,
+      "title": "GLBITM Attendance System",
+      "description": "Production-ready college attendance system with rotating-QR anti-proxy self-marking, geo-fencing, face recognition, parent portal, and 2FA. 45+ features across web and mobile.",
+      "technologies": ["Node.js", "Express", "SQLite", "Face Recognition"],
+      "github": "https://github.com/naitikgupta-gtb/glbitm-attendance-system",
+      "demo": "https://glbitm-attendance-system-gas.deplox.site",
+      "image": "AttendenceSystem.png"
+    },
+    {
+      "id": 3,
+      "title": "VelvetBrew Coffee",
+      "description": "Full-stack coffee shop web app — animated landing, live menu API, pickup orders and table reservations, plus a real-time staff Kitchen Display System.",
+      "technologies": ["Node.js", "Express", "Vanilla JS", "WebSockets"],
+      "github": "https://github.com/naitikgupta-gtb/VelvetBrew-Coffee",
+      "demo": "https://velvetbrew-coffee-vc.deplox.site",
+      "image": "VelvetBrew.png"
+    },
+    {
+      "id": 4,
+      "title": "OmniView",
+      "description": "100% offline, ad-free Android app to view any file type: PDF, DOCX/XLSX/PPTX, images, video/audio, and 15+ code languages with syntax highlighting.",
+      "technologies": ["Kotlin", "Jetpack Compose", "Android"],
+      "github": "https://github.com/naitikgupta-gtb/OmniView",
+      "demo": " https://naitikgupta-gtb.github.io/OmniView/",
+      "image": "OmniView.png"
+    },
+    {
+      "id": 5,
+      "title": "Event Checkin",
+      "description": "Lightweight event check-in platform — guests register online, get a unique QR pass, and hosts scan codes on the door. Live attendance dashboard, capacity tracking, and CSV export for organizers.",
+      "technologies": ["JavaScript", "Node.js", "QR Code", "WebSockets"],
+      "github": "https://github.com/naitikgupta-gtb/event-checkin",
+      "demo": "https://event-checkin-ec.deplox.site",
+      "image": "EventCheckin.png"
+    },
+    {
+      "id": 6,
+      "title": "Screen Recorder Android",
+      "description": "Modern Android screen recorder built with Jetpack Compose and MediaProjection API — floating overlay controls, on-screen drawing pen, internal/mic audio capture, direct gallery export.",
+      "technologies": ["Kotlin", "Jetpack Compose", "MediaProjection"],
+      "github": "https://github.com/naitikgupta-gtb/Screen-Recorder-Android",
+      "demo": "https://naitikgupta-gtb.github.io/Screen-Recorder-Android/",
+      "image": "ScreenRecorder.png"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Computer Applications (BCA) — Pursuing",
+      "college": "GL Bajaj Institute of Technology and Management",
+      "year": "BCA (2025–2028)",
+      "description": "Studying computer science with focus on full-stack development, mobile apps, and DevOps. Built the college's production attendance system as a hands-on project."
+    }
+  ]
+}
